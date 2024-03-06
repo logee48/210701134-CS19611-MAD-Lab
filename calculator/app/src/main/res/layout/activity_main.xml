@@ -170,6 +170,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <Button
+        android:id="@+id/bt_open"
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:text="("
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="404dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+    android:id="@+id/bt_close"
+    android:layout_width="72dp"
+    android:layout_height="50dp"
+    android:text=")"
+    android:layout_marginStart="132dp"
+    android:layout_marginTop="404dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
     <AutoCompleteTextView
         android:id="@+id/inputt"
         android:textSize="40dp"
