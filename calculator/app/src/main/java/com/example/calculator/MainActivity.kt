@@ -3,10 +3,16 @@ package com.example.calculator
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.calculator.databinding.ActivityMainBinding
+import java.security.KeyStore.TrustedCertificateEntry
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     fun evaluate(str: String): Double {
+        var aa:Boolean = true
+        val ops = arrayOf("(",")","+","-","*","/")
+        if (str.substring(0, str.length - 1) in ops){
+            aa = false
+        }
 
         data class Data(val rest: List<Char>, val value: Double)
 
