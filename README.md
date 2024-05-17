@@ -1,4 +1,4 @@
-# android studio init setup
+<!-- # android studio init setup
 
 ## add this code in build.gradle.kts file
 ```
@@ -25,4 +25,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
-<img src="/readme_assets/img2.png" width="900px"></img>
+<img src="/readme_assets/img2.png" width="900px"></img> -->
